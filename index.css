@@ -1,0 +1,27 @@
+body {
+color:white;
+background-color: black;
+
+}
+
+#gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+#content{
+width: 50%;
+height: 100%;
+float:left;
+}
+#frapper{
+  width: 50%;
+  height: inherit;
+  /* float: left; */
+  display: flex;
+  flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
